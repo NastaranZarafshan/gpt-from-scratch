@@ -32,7 +32,7 @@ The model was trained on **Tiny Shakespeare** using a small decoder-only Transfo
 
 ## Training Curve
 
-![Training and validation loss](artifacts/loss_curve.png)
+![Training and validation loss](./assets/loss_curve.png)
 
 Both training and validation cross-entropy decrease consistently during training. The two curves remain close for most of the run, which indicates stable optimization and limited overfitting at this model scale.
 
@@ -42,7 +42,7 @@ The largest improvement occurs early in training, followed by slower convergence
 
 ## Learned Causal Attention
 
-![Layer 1 Head 1 causal attention](artifacts/attention.png)
+![Layer 1 Head 1 causal attention](./assets/attention.png)
 
 The heatmap visualizes the attention matrix of **Layer 1, Head 1** for a short sequence.
 
