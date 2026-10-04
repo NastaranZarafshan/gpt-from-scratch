@@ -1,0 +1,22 @@
+seed: 42
+data_path: data/input.txt
+output_dir: artifacts
+train_fraction: 0.9
+model:
+  vocab_size: 259
+  max_seq_len: 128 # Use 16 for the small sample file, and 128 for the Tiny Shakespeare dataset.
+  d_model: 128
+  n_heads: 4
+  n_layers: 4
+  d_ff: 512
+  dropout: 0.1
+training:
+  batch_size: 32
+  max_steps: 3000
+  eval_interval: 200
+  eval_batches: 30
+  learning_rate: 0.0003
+  min_learning_rate: 0.00003
+  warmup_steps: 100
+  weight_decay: 0.1
+  grad_clip: 1.0

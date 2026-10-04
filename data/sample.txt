@@ -1,0 +1,1 @@
+Transformers learn to predict the next token from context. Attention lets every token combine information from earlier tokens. A causal mask prevents the model from seeing the future. This tiny corpus exists only for smoke tests; use Tiny Shakespeare or another real text corpus for training experiments.
