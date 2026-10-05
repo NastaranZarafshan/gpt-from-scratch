@@ -503,6 +503,5 @@ For reproducible reporting, record the PyTorch version, GPU model, CUDA version,
 
 ---
 
-## License
-
-MIT License — see `LICENSE`.
+## 🛡️ License <a name="license"></a>
+Project is distributed under [MIT License](https://github.com/NastaranZarafshan/gpt-from-scratch/blob/main/LICENSE)
